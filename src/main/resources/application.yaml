@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ReactiveSBApp
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/testsb
+    username: postgres
+    password:
+  flyway:
+    user: postgres
+    password:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/testsb
